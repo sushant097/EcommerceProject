@@ -1,6 +1,6 @@
 var config = {
     // replace the publicKey with yours
-    "publicKey": "test_public_key_155a",
+    "publicKey": "KHALTI_MERCHANT_PUBLIC_KEY",
     "productIdentity": "1234567890",
     "productName": "Dragon",
     "productUrl": "http://gameofthrones.wikia.com/wiki/Dragons",

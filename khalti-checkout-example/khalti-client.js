@@ -38,7 +38,7 @@ $(function () {
         var amt = parseInt(self.data('amount')) * 100; // amount is in paisa
         var config = {
             // replace the publicKey with yours
-            "publicKey": "test_public_key_a4f7ce456a1449d9a9f527b326365638",
+            "publicKey": "KHALTI_MERCHANT_PUBLIC_KEY",
             "productIdentity": "1234567890",
             "productName": "Dragon",
             "productUrl": "http://gameofthrones.wikia.com/wiki/Dragons",
