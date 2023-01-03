@@ -1,4 +1,6 @@
 <?php
+ob_start();
+
 // parameters from the add to cart button
 $product_id = isset($_GET['id']) ? $_GET['id'] : "";
 $quantity = isset($_GET['quantity']) ? $_GET['quantity'] : 1;
@@ -36,9 +38,10 @@ if($cart_item->exists()){
     // add to cart
     if($cart_item->create()){
         // redirect to product list and tell the user it was added to cart
-        header("Location: products.php?id={$product_id}&action=added");
+        header("Location: index.php?id={$product_id}&action=added");
     }else{
-        header("Location: products.php?id={$product_id}&action=unable_to_add");
+        header("Location: index.php?id={$product_id}&action=unable_to_add");
     }
 }
+ob_end_flush();
 ?>

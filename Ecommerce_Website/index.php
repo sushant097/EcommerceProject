@@ -45,7 +45,7 @@
       //if products retrieved are more than zeror
       if($num > 0){
         //used for pagination
-        $page_url = "products.php";
+        $page_url = "index.php";
         $total_rows = $product->count();
 
         //show the products

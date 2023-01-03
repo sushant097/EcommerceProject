@@ -4,7 +4,7 @@
 
       // creating box
       echo "<div class='col-md-4 m-b-20px'>";
-
+ 
             // product id for javascript access
             echo "<div class='product-id display-none'>{$id}</div>";
 

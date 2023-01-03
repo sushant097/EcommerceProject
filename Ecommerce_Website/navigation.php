@@ -8,7 +8,7 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                     </button>
-                    <a class="navbar-brand" href="products.php">YuYu Taste House</a>
+                    <a class="navbar-brand" href="index.php">YuYu Taste House</a>
                 </div>
 
                 <div class="navbar-collapse collapse">
@@ -16,7 +16,7 @@
 
                         <!-- highlight if $page_title has 'Products' word. -->
                         <li <?php echo strpos($page_title, "Product")!==false ? "class='active'" : ""; ?>>
-                            <a href="products.php">Products</a>
+                            <a href="index.php">Products</a>
                         </li>
 
                         <li <?php echo $page_title=="Cart" ? "class='active'" : ""; ?> >

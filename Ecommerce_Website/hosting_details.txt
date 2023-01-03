@@ -1,0 +1,3 @@
+db name: ecommerce1
+db username: sushant123
+db pass: rX7WO[JjP#<5-^3R

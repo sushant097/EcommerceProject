@@ -21,5 +21,6 @@
   $cart_item->delete();
 
   // redirect to product list and tell the user it was added to cart
-  header('Location: cart.php?action=removed&id=' . $id);
+  header('Location: cart.php?action=removed&id=' . $product_id);
 ?>
+ 
